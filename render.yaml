@@ -10,7 +10,7 @@ services:
       # Disable web UI. WARNING: Do not enable this unless
       # you are running Zep on a private network.
       - key: ZEP_SERVER_WEB_ENABLED
-        value: false
+        value: true
       - key: PORT
         value: 8000
       - key: ZEP_STORE_POSTGRES_DSN
